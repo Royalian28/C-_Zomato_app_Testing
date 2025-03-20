@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="appium.webdriver" Version="7.2.0" />
+    <PackageReference Include="microsoft.net.test.sdk" Version="17.13.0" />
+    <PackageReference Include="nunit" Version="4.3.2" />
+    <PackageReference Include="nunit3testadapter" Version="5.0.0" />
+    <PackageReference Include="selenium.webdriver" Version="4.29.0" />
+    <PackageReference Include="selenium.webdriver.chromedriver" Version="134.0.6998.8800" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,92 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\dhanu\\Desktop\\sabu\\Zomato\\Zomato\\Zomato.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\dhanu\\Desktop\\sabu\\Zomato\\Zomato\\Zomato.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dhanu\\Desktop\\sabu\\Zomato\\Zomato\\Zomato.csproj",
+        "projectName": "Zomato",
+        "projectPath": "C:\\Users\\dhanu\\Desktop\\sabu\\Zomato\\Zomato\\Zomato.csproj",
+        "packagesPath": "C:\\Users\\dhanu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dhanu\\Desktop\\sabu\\Zomato\\Zomato\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dhanu\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "appium.webdriver": {
+              "target": "Package",
+              "version": "[7.2.0, )"
+            },
+            "microsoft.net.test.sdk": {
+              "target": "Package",
+              "version": "[17.13.0, )"
+            },
+            "nunit": {
+              "target": "Package",
+              "version": "[4.3.2, )"
+            },
+            "nunit3testadapter": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "selenium.webdriver": {
+              "target": "Package",
+              "version": "[4.29.0, )"
+            },
+            "selenium.webdriver.chromedriver": {
+              "target": "Package",
+              "version": "[134.0.6998.8800, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.407/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
